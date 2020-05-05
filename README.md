@@ -58,3 +58,11 @@ void viewChanged(DateRangePickerViewChangedArgs args) {
     });
 }
 ```
+**[View document in Syncfusion Flutter Knowledge base](https://www.syncfusion.com/kb/11331/how-to-get-the-current-view-dates-in-flutter-date-range-picker-sfdaterangepicker)**
+
+**Screenshots**
+
+![Month view](http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img1.png)
+![Year view](http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img2.png)
+![Decade view](http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img3.png)
+![Century view](http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img4.png)
