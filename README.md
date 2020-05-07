@@ -62,7 +62,7 @@ void viewChanged(DateRangePickerViewChangedArgs args) {
 
 **Screenshots**
 
-<img alt="Month view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img1.png" width="250" height="250" />|
-<img alt="Year view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img2.png" width="250" height="250" />|
-<img alt="Decade view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img3.png" width="250" height="250" />|
-<img alt="Century view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img4.png" width="250" height="250" />|
+<img alt="Month view" src="http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img1.png" width="230" height="400"/>|
+<img alt="Year view" src="http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img2.png" width="230" height="400"/>|
+<img alt="Decade view" src="http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img3.png" width="230" height="400"/>|
+<img alt="Century view" src="http://www.syncfusion.com/uploads/user/kb/flut/flut-857/flut-857_img4.png" width="230" height="400"/>|
