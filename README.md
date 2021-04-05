@@ -3,20 +3,11 @@
 In flutter date range picker, you can get the current month start and end dates using the `onViewChanged` callback.
 
 ## Step 1:
-In initState(), initialize the controller for the date range picker and set the default values for start and end dates of the current month.
+Inside the state, initialize the controller for the date range picker and set the default values for start and end date of the current month.
 
 ```xml
-DateRangePickerController _controller;
-String _startDate, _endDate;
- 
-@override
-void initState() {
-  // TODO: implement initState
-  _controller = DateRangePickerController();
-  _startDate = '';
-  _endDate = '';
-  super.initState();
-}
+final DateRangePickerController _controller = DateRangePickerController();
+String _startDate = '', _endDate = '';
 ```
  
 ## Step 2:
@@ -48,12 +39,12 @@ Using the `onViewChanged` callback of the date picker get the start and dates of
 void viewChanged(DateRangePickerViewChangedArgs args) {
  
     _startDate = DateFormat('dd, MMMM yyyy')
-        .format(args.visibleDateRange.startDate)
+        .format(args.visibleDateRange.startDate!)
         .toString();
     _endDate=DateFormat('dd, MMMM yyyy')
-        .format(args.visibleDateRange.endDate)
+        .format(args.visibleDateRange.endDate!)
         .toString();
-    SchedulerBinding.instance.addPostFrameCallback((duration) {
+    SchedulerBinding.instance!.addPostFrameCallback((duration) {
       setState(() {});
     });
 }
